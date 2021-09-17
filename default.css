@@ -1,0 +1,107 @@
+/* Regole Generali */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #3b3c48;
+	min-width: 808px
+}
+
+ul {
+	list-style: none;
+	list-style-position: outside;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+img {
+	border: none;
+}
+
+/* Struttura */
+#wrapperBox {
+	width: 900px;
+	clear: center;
+	background: #808080;
+	margin: 10px auto 30px auto;
+	padding: 5px;
+	-moz-box-shadow: 0 0 5px 5px #ccc;
+	-webkit-box-shadow: 0 0 5px 5px#ccc;
+	box-shadow: 0 0 5px 5px #ccc;
+}
+
+#bannerBox {
+	width: 900px;
+	height: 150px;
+}
+
+#centerBox {
+	margin: 5px 0 0 0;
+	width: 900px;
+}
+
+#menuBox {
+	float: left;
+	width: 240px;
+	margin: 0 5px 20px 0;
+}
+
+#menuBox a {
+	display: block;
+	width: 150px;
+	height: 40px;
+	padding: 5px 0 2px 2px;
+	border-bottom: 1px solid #888;
+	font-size: 12px;
+}
+
+
+#menuBox a:hover, .active {
+	background: #B2B2B2;
+}
+
+#contentBox {
+	float: left;
+	width: 633px;
+	margin: 0 0 20px 0;
+  	padding: 10px 10px 0 10px;
+}
+
+#contentBox a {
+	text-decoration: underline;
+}
+
+#contentBox a:hover {
+	text-decoration: none;
+}
+
+#centeredBox{
+	text-align: left;
+}
+
+#footerBox {
+	clear: left;
+	width: 890px;
+	height: 10px;
+	padding: 5px;
+	margin: 0 0 0 0;
+	border-top: 1px solid #D2D2D2;
+}
+
+#footLX {
+	float: left;
+	width: 400px;
+	height: 15px;
+	font-size: 11px;
+	color: #3b3c48;
+}
+img {
+  float: right;
+}
